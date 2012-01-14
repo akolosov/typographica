@@ -1,8 +1,7 @@
 Typographica
 ============
 
-Класс для типографической коррекции русского текста в HTML.
-Полная поддержка UTF8.
+Класс для типографической коррекции русского текста в HTML согласно правилам русского языка. Полная поддержка UTF-8.
 
 
 # Installation
@@ -12,9 +11,8 @@ Typographica
 
 # Usage
 
-  gem "typographica"
-
-  puts "Some text".correct!
+    gem "typographica"
+    puts "Some text".correct!
 
 
 # License
