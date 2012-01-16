@@ -35,6 +35,4 @@ describe Typographica do
 
   end
 
-puts 'Русский текст,без "обработки" и корректировки-шмаректировки.'.typography!
-puts 'Русский текст,без "обработки" и корректировки-шмаректировки.'.typography!(true)
 end
