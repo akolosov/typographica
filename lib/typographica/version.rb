@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 #
-# Typographica v0.1
+# Typographica v0.1.0
 #
 # Класс для типографической коррекции русского текста в HTML согласно правилам русского языка. Полная поддержка UTF-8.
 #
@@ -14,7 +14,8 @@ module Typographica
   module VERSION
     MAJOR   = 0
     MINOR   = 1
+    PATCH   = 0
 
-    STRING = [MAJOR, MINOR].join('.')
+    STRING = [MAJOR, MINOR, PATCH].join('.')
   end
 end

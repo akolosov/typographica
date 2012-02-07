@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 #
-# Typographica v0.1
+# Typographica v0.1.0
 #
 # Класс для типографической коррекции русского текста в HTML согласно правилам русского языка. Полная поддержка UTF-8.
 #
@@ -11,8 +11,8 @@
 #
 
 module Typographica
-  require	"typographica/version"
-  require	"typographica/typographica"
+  require "typographica/version"
+  require "typographica/typographica"
 end
 
 class String
